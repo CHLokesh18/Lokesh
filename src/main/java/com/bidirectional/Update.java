@@ -27,6 +27,9 @@ public class Update extends Scan_Class {
 			System.out.println(r.getId()+"\t"+r.getAge()+"\t"+r.getName()+"\t"+r.getD().getAdhar());
 		}
 		
+		//if u want to update child record use below query
+//		String Query="update dto_Persion_Details e set adhar=e.getid().getName() where id=e.getid() "
+		
 		
 		 String last=" where a.id=";
 		System.out.println("enter the id");
